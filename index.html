@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1>Pomodoro Timer</h1>
+    <div id="setters">
+      <div id="breakDiv">
+        <h2>Break Length</h2>
+        <button id="decrementBreak" class="btn btn-primary">-</button>
+        <p id="break">5</p>
+        <button id="incrementBreak" class="btn btn-primary">+</button>
+      </div>
+      <div id="sessionDiv">
+        <h2>Session Length</h2>
+        <button id="decrementSession" class="btn btn-primary">-</button>
+        <p id="session">25</p>
+        <button id="incrementSession" class="btn btn-primary">+</button>
+      </div>
+    </div>
+    <div id="timerDiv">
+      <p id="timer"></p>
+    </div>
+    <div>
+      <button id="start" class="btn btn-primary">Start</button>
+      <button id="stop" class="btn btn-primary">Stop</button>
+      <button id="resume" class="btn btn-primary">Resume</button>
+      <button id="reset" class="btn btn-primary">Reset</button>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>

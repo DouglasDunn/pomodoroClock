@@ -1,0 +1,46 @@
+button, p {
+  display: inline-block;
+}
+
+body {
+  background: #7f0000;
+  color: white;
+}
+
+#breakDiv, #sessionDiv {
+  display: inline-block;
+}
+
+#breakDiv {
+  margin-right: 20px;
+}
+
+#sessionDiv {
+  margin-left: 20px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+
+#timerDiv {
+  height: 140px;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 5px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 80px;
+}
+
+#session, #break {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
